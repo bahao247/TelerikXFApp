@@ -2,21 +2,23 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Chart\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Common\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Data\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Input\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.List\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Primitives\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.ChartRenderer.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.Common.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.DataControlsRenderer.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.InputRenderer.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.PrimitivesRenderer.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Chart\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Common\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Data\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Input\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.List\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Primitives\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.ChartRenderer.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.Common.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.DataControlsRenderer.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.InputRenderer.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.PrimitivesRenderer.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Telerik.XamarinForms.ChartRenderer.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Telerik.XamarinForms.Common.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Telerik.XamarinForms.DataControlsRenderer.Android\library_project_imports\assets</ResolvedAssetDirectory>
@@ -27,18 +29,19 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Chart.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Common.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Data.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Input.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.List.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Primitives.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.ChartRenderer.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.Common.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.DataControlsRenderer.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.InputRenderer.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.PrimitivesRenderer.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp1\TelerikXFApp1\Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\SQLite.Net.Platform.XamarinAndroid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Chart.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Common.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Data.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Input.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.List.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.Xamarin.Android.Primitives.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.ChartRenderer.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.Common.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.DataControlsRenderer.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.InputRenderer.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Telerik.XamarinForms.PrimitivesRenderer.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
