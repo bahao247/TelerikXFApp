@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives"
+             xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
+             xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.XamarinForms.Chart"
+             xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
+             xmlns:portable="clr-namespace:Portable;assembly=TelerikXFApp1.Portable"
+             x:Class="Portable.StartPage">
+
+  <ContentPage.BindingContext>
+    <portable:StartPageViewModel/>
+  </ContentPage.BindingContext>
+
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness" Android="0" WinPhone="0" iOS="0,20,0,0"/>
+  </ContentPage.Padding>
+
+  <telerikChart:RadCartesianChart SelectionPaletteName="LightSelected">
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+      <telerikChart:CategoricalAxis />
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+      <telerikChart:NumericalAxis x:Name="numericalAxis">
+        <OnPlatform x:TypeArguments="x:String" Android="%.2f" WinPhone="N2" iOS="%.2f"/>
+      </telerikChart:NumericalAxis>
+    </telerikChart:RadCartesianChart.VerticalAxis>
+
+    <telerikChart:RadCartesianChart.Series>
+      <telerikChart:BarSeries ItemsSource="{Binding CategoricalChartDataCollection}">
+        <telerikChart:BarSeries.ValueBinding>
+          <telerikChart:PropertyNameDataPointBinding PropertyName="Value"/>
+        </telerikChart:BarSeries.ValueBinding>
+        <telerikChart:BarSeries.CategoryBinding>
+          <telerikChart:PropertyNameDataPointBinding PropertyName="Category"/>
+        </telerikChart:BarSeries.CategoryBinding>
+      </telerikChart:BarSeries>
+    </telerikChart:RadCartesianChart.Series>
+  </telerikChart:RadCartesianChart>
+</ContentPage>
