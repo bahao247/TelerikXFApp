@@ -12,7 +12,8 @@ namespace Portable
         public App()
         {
             // The root page of your application
-            MainPage = new StartPage();
+            MainPage = new NavigationPage(new HomePage());
+            //MainPage = new StartPage();
         }
 
 

@@ -44,12 +44,12 @@ D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\bin\Debug\Xamarin.Forms.Platf
 D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\bin\Debug\Xamarin.Forms.Xaml.pdb
 D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\bin\Debug\Xamarin.Forms.Xaml.xml
 D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\TelerikXFApp1.Portable.csproj.App.config
-D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\TelerikXFApp1.Portable.csprojResolveAssemblyReference.cache
 D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\Portable.StartPage.xaml.g.cs
 D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\TelerikXFApp1.Portable.dll
 D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\TelerikXFApp1.Portable.pdb
-D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\TelerikXFApp1.Portable.dll.mdb
-D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\bin\Debug\TelerikXFApp1.Portable.dll.mdb
+D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\Portable.EditPage.xaml.g.cs
+D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\Portable.HomePage.xaml.g.cs
+D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\TelerikXFApp1.Portable.csprojResolveAssemblyReference.cache
 D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\TelerikXFApp1.Portable.dll.mdb
 D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\bin\Debug\TelerikXFApp1.Portable.dll.mdb
 D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\TelerikXFApp1.Portable.dll.mdb

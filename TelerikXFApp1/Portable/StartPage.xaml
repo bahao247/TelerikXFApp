@@ -7,9 +7,48 @@
              xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
              xmlns:portable="clr-namespace:Portable;assembly=TelerikXFApp1.Portable"
              x:Class="Portable.StartPage">
-  <Button x:Name="updateButton"
-            Text="Update"
-            BackgroundColor="Navy"
-            TextColor="White" />
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <ScrollView>
+
+    <ContentPage.BackgroundColor>
+      <OnPlatform x:TypeArguments="Color"
+                              Android="#ffffff"
+                              WinPhone="#ffffff"
+                              iOS="#ffffff"></OnPlatform>
+    </ContentPage.BackgroundColor>
+    
+    <ContentPage.BindingContext>
+      <!-- <portable:StartPageViewModel/> -->
+      <portable:Core/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Padding>
+      <OnPlatform x:TypeArguments="Thickness" Android="0" WinPhone="0" iOS="0,20,0,0"/>
+    </ContentPage.Padding>
+
+    <StackLayout>
+      <telerikChart:RadCartesianChart SelectionPaletteName="LightSelected">
+        <telerikChart:RadCartesianChart.HorizontalAxis>
+          <telerikChart:CategoricalAxis />
+        </telerikChart:RadCartesianChart.HorizontalAxis>
+        <telerikChart:RadCartesianChart.VerticalAxis>
+          <telerikChart:NumericalAxis x:Name="numericalAxis">
+            <OnPlatform x:TypeArguments="x:String" Android="%.2f" WinPhone="N2" iOS="%.2f"/>
+          </telerikChart:NumericalAxis>
+        </telerikChart:RadCartesianChart.VerticalAxis>
+
+        <telerikChart:RadCartesianChart.Series>
+          <telerikChart:BarSeries ItemsSource="{Binding CategoricalChartDataCollection}">
+            <telerikChart:BarSeries.ValueBinding>
+              <telerikChart:PropertyNameDataPointBinding PropertyName="ValueCloseStockEntry"/>
+            </telerikChart:BarSeries.ValueBinding>
+            <telerikChart:BarSeries.CategoryBinding>
+              <telerikChart:PropertyNameDataPointBinding PropertyName="SymbolStock"/>
+            </telerikChart:BarSeries.CategoryBinding>
+          </telerikChart:BarSeries>
+        </telerikChart:RadCartesianChart.Series>
+      </telerikChart:RadCartesianChart>
+    </StackLayout>
+  </ScrollView>
   
 </ContentPage>

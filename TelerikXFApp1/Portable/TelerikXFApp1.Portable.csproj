@@ -38,6 +38,12 @@
   <ItemGroup>
     <Compile Include="Core.cs" />
     <Compile Include="DataAccess.cs" />
+    <Compile Include="EditPage.xaml.cs">
+      <DependentUpon>EditPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="IConfig.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="App.cs" />
@@ -47,6 +53,9 @@
     </Compile>
     <Compile Include="StartPageViewModel.cs" />
     <Compile Include="Stock.cs" />
+    <Compile Include="StockCell.cs" />
+    <Compile Include="StockCharts.cs" />
+    <Compile Include="StockChartsCell.cs" />
     <Compile Include="StockService.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +115,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EditPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.3.168\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.3.168\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
