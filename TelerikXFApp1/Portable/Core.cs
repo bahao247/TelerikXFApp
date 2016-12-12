@@ -30,7 +30,7 @@ namespace Portable
             {
                 tempStock = new StockData();
 
-                tempStock.Category = listStock[i].DateStock.Date.ToString("dd/MM/yyyy");
+                tempStock.Category = listStock[i].DateStock.Date;
                 tempStock.Value = listStock[i].ValueCloseStockEntry;
 
                 tempList.Add(tempStock);
@@ -53,7 +53,7 @@ namespace Portable
 
         public class StockData
         {
-            public string Category { get; set; }
+            public DateTime Category { get; set; }
             public float Value { get; set; }
         }
 

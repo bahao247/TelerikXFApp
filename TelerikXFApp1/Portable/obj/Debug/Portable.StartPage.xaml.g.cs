@@ -17,12 +17,8 @@ namespace Portable {
     public partial class StartPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Telerik.XamarinForms.Chart.NumericalAxis numericalAxis;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(StartPage));
-            numericalAxis = this.FindByName<global::Telerik.XamarinForms.Chart.NumericalAxis>("numericalAxis");
         }
     }
 }

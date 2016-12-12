@@ -29,12 +29,14 @@
     <StackLayout>
       <telerikChart:RadCartesianChart SelectionPaletteName="LightSelected">
         <telerikChart:RadCartesianChart.HorizontalAxis>
-          <telerikChart:CategoricalAxis />
+          <telerikChart:DateTimeContinuousAxis LabelFormat="dd" GapLength="0.5" PlotMode="BetweenTicks" MajorStepUnit="Day" MajorStep="2" />
+          <!--<telerikChart:CategoricalAxis />-->
         </telerikChart:RadCartesianChart.HorizontalAxis>
         <telerikChart:RadCartesianChart.VerticalAxis>
-          <telerikChart:NumericalAxis x:Name="numericalAxis">
+          <telerikChart:NumericalAxis Minimum="700"  MajorStep="10" RangeExtendDirection="None"/>
+          <!--<telerikChart:NumericalAxis x:Name="numericalAxis">
             <OnPlatform x:TypeArguments="x:String" Android="%.2f" WinPhone="N2" iOS="%.2f"/>
-          </telerikChart:NumericalAxis>
+          </telerikChart:NumericalAxis>-->
         </telerikChart:RadCartesianChart.VerticalAxis>
 
         <telerikChart:RadCartesianChart.Series>
