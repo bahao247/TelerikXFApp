@@ -12,42 +12,44 @@ namespace Portable
 {
     class Core : INotifyPropertyChanged
     {
-        private ObservableCollection<Stock> categoricalChartDataCollection;
         private ObservableCollection<StockData> categoricalChartDataCollection1;
         private List<Stock> listStock;
+        
         public Core()
-        { 
-            
+        {
+            using (var data = new DataAccess())
+            {
+                listStock = data.GetStock();
+            }
+
+            List<StockData> tempList = new List<StockData>();
+
+            StockData tempStock;
+
+            for (int i = 0; i < listStock.Count; i++)
+            {
+                tempStock = new StockData();
+
+                tempStock.Category = listStock[i].DateStock.Date.ToString("dd/MM/yyyy");
+                tempStock.Value = listStock[i].ValueCloseStockEntry;
+
+                tempList.Add(tempStock);
+            }
+
+            categoricalChartDataCollection1 = new ObservableCollection<StockData>(tempList);
         }
 
-        public ObservableCollection<Stock> CategoricalChartDataCollection
+        public ObservableCollection<StockData> CategoricalChartDataCollection
         {
             get {
-                //return categoricalChartDataCollection1 ?? (categoricalChartDataCollection1 = GenerateChartData());
-                using (var data = new DataAccess())
-                {
-                    listStock = data.GetStock();
-                }
-
-                categoricalChartDataCollection = new ObservableCollection<Stock>(listStock);
-
-                return categoricalChartDataCollection;
+                return categoricalChartDataCollection1;
             }
             set
             {
-                //categoricalChartDataCollection1 = value;
-                categoricalChartDataCollection = value;
+                categoricalChartDataCollection1 = value;
                 OnPropertyChanged();
             }
         }
-
-        private ObservableCollection<StockData> GenerateChartData() => new ObservableCollection<StockData>()
-         {
-             new StockData { Category = "Apples", Value = 510000 },
-             new StockData { Category = "Oranges1", Value = 1251000 },
-             new StockData { Category = "Oranges2", Value = 125000 },
-             new StockData { Category = "Oranges3", Value = 1251000 }
-         };
 
         public class StockData
         {
@@ -92,7 +94,7 @@ namespace Portable
                 stock.SymbolStock = (string)results["query"]["results"]["quote"][count - 1]["Symbol"];
                 stock.ValueCloseStockEntry = (float)results["query"]["results"]["quote"][count - 1]["Close"];
                 stock.DateStock = ((DateTime)results["query"]["results"]["quote"][count - 1]["Date"]).AddHours(TimeZoneInfo.Local.BaseUtcOffset.Hours);
-                //stock.DateStock = timeTemp;
+                
                 using (var data = new DataAccess())
                 {
                     data.InsertStock(stock);

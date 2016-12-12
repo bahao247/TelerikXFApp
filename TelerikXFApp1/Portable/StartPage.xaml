@@ -40,10 +40,10 @@
         <telerikChart:RadCartesianChart.Series>
           <telerikChart:BarSeries ItemsSource="{Binding CategoricalChartDataCollection}">
             <telerikChart:BarSeries.ValueBinding>
-              <telerikChart:PropertyNameDataPointBinding PropertyName="ValueCloseStockEntry"/>
+              <telerikChart:PropertyNameDataPointBinding PropertyName="Value"/>
             </telerikChart:BarSeries.ValueBinding>
             <telerikChart:BarSeries.CategoryBinding>
-              <telerikChart:PropertyNameDataPointBinding PropertyName="SymbolStock"/>
+              <telerikChart:PropertyNameDataPointBinding PropertyName="Category"/>
             </telerikChart:BarSeries.CategoryBinding>
           </telerikChart:BarSeries>
         </telerikChart:RadCartesianChart.Series>
