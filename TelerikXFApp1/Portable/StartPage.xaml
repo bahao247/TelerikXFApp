@@ -38,14 +38,24 @@
         </telerikChart:RadCartesianChart.VerticalAxis>
 
         <telerikChart:RadCartesianChart.Series>
-          <telerikChart:BarSeries ItemsSource="{Binding CategoricalChartDataCollection}">
+          <!--SplineAreaSeries-->
+          <telerikChart:SplineAreaSeries ItemsSource="{Binding CategoricalChartDataCollection}">
+            <telerikChart:SplineAreaSeries.ValueBinding>
+              <telerikChart:PropertyNameDataPointBinding PropertyName="Value"/>
+            </telerikChart:SplineAreaSeries.ValueBinding>
+            <telerikChart:SplineAreaSeries.CategoryBinding>
+              <telerikChart:PropertyNameDataPointBinding PropertyName="Category"/>
+            </telerikChart:SplineAreaSeries.CategoryBinding>
+          </telerikChart:SplineAreaSeries>
+          
+          <!--<telerikChart:BarSeries ItemsSource="{Binding CategoricalChartDataCollection}">
             <telerikChart:BarSeries.ValueBinding>
               <telerikChart:PropertyNameDataPointBinding PropertyName="Value"/>
             </telerikChart:BarSeries.ValueBinding>
             <telerikChart:BarSeries.CategoryBinding>
               <telerikChart:PropertyNameDataPointBinding PropertyName="Category"/>
             </telerikChart:BarSeries.CategoryBinding>
-          </telerikChart:BarSeries>
+          </telerikChart:BarSeries>-->
         </telerikChart:RadCartesianChart.Series>
       </telerikChart:RadCartesianChart>
     </StackLayout>
