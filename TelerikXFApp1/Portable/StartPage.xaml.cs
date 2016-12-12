@@ -1,4 +1,9 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace Portable
 {
@@ -7,9 +12,6 @@ namespace Portable
         public StartPage()
         {
             InitializeComponent();
-
-            // C# test
-            //numericalAxis.LabelFormat = Xamarin.Forms.Device.OnPlatform("%.2f", "%.2f", "N2");
         }
     }
 }

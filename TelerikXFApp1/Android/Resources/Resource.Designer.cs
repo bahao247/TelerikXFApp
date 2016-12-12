@@ -26,6 +26,8 @@ namespace TelerikXFApp1.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::TelerikXFApp1.Android.Resource.String.ApplicationName;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::TelerikXFApp1.Android.Resource.String.Hello;
 			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Animation.abc_fade_in = global::TelerikXFApp1.Android.Resource.Animation.abc_fade_in;
 			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Animation.abc_fade_out = global::TelerikXFApp1.Android.Resource.Animation.abc_fade_out;
 			global::Telerik.XamarinForms.ChartRenderer.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::TelerikXFApp1.Android.Resource.Animation.abc_grow_fade_in_from_bottom;
