@@ -14,7 +14,69 @@ namespace Portable
     {
         private ObservableCollection<StockData> categoricalChartDataCollection1;
         private List<Stock> listStock;
-        
+        /*
+        //PTR TuanNA begin comment
+        //[- 12/12/2016]
+        xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.XamarinForms.Chart"
+
+Here is an example of how to create a RadCartesianChart with ScatterPointSeries in code:
+
+var chart = new RadCartesianChart
+{
+    HorizontalAxis = new NumericalAxis(),
+    VerticalAxis = new NumericalAxis(),
+    BindingContext = new ScatterViewModel()
+};
+
+var series = new ScatterPointSeries();
+series.SetBinding(ScatterPointSeries.ItemsSourceProperty, new Binding("ScatterData"));   
+series.XValueBinding = new PropertyNameDataPointBinding("XValue");
+series.YValueBinding = new PropertyNameDataPointBinding("YValue");
+
+chart.Series.Add(series);
+
+Here is the sample data:
+
+public class NumericalData
+{
+    public double XValue { get; set; }
+    public double YValue { get; set; }
+}
+
+public class ScatterViewModel
+{
+    private static Random random = new Random();
+
+    public ScatterViewModel()
+    {
+        this.ScatterData = GetScatterData(10, 0.1, 0.1, this.GenerateX, this.GenerateY);
+    }
+
+    public ObservableCollection<NumericalData> ScatterData { get; set; }
+
+    public static ObservableCollection<NumericalData> GetScatterData(int dataCount, double xDispersion, double yDispersion, Func<int, double> xFunc, Func<int, double> yFunc)
+    {
+        var data = new ObservableCollection<NumericalData>();
+        for (int i = 0; i < dataCount; i++)
+        {
+            data.Add(new NumericalData() { XValue = xFunc(i) + xDispersion * random.NextDouble(), YValue = yFunc(i) + yDispersion * random.NextDouble() });
+        }
+
+        return data;
+    }
+
+    private double GenerateX(int i)
+    {
+        return 1 + Math.Sin(i);
+    }
+
+    private double GenerateY(int i)
+    {
+        return i;
+    }
+}
+        //PTR TuanNA end comment
+        */
         public Core()
         {
             using (var data = new DataAccess())
@@ -30,7 +92,7 @@ namespace Portable
             {
                 tempStock = new StockData();
 
-                tempStock.Category = listStock[i].DateStock.Date.ToString("dd/MM/yyyy");
+                tempStock.Category = listStock[i].IDStock;
                 tempStock.Value = listStock[i].ValueCloseStockEntry;
 
                 tempList.Add(tempStock);
@@ -53,7 +115,7 @@ namespace Portable
 
         public class StockData
         {
-            public string Category { get; set; }
+            public int Category { get; set; }
             public float Value { get; set; }
         }
 
