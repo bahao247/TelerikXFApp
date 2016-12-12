@@ -54,3 +54,5 @@ D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\TelerikXFApp1.Porta
 D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\bin\Debug\TelerikXFApp1.Portable.dll.mdb
 D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\TelerikXFApp1.Portable.dll.mdb
 D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\bin\Debug\TelerikXFApp1.Portable.dll.mdb
+D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\obj\Debug\TelerikXFApp1.Portable.dll.mdb
+D:\git\Xamarin\TelerikXFApp\TelerikXFApp1\Portable\bin\Debug\TelerikXFApp1.Portable.dll.mdb
